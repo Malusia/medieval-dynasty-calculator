@@ -1,0 +1,12 @@
+services:
+  app:
+    entrypoint:
+    - sleep
+    - infinity
+    build:
+      context: backend
+      target: development
+    volumes:
+      - type: bind
+        source: ./
+        target: /medieval-dynasty-calculator
