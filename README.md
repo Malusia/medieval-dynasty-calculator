@@ -1,1 +1,1 @@
-# medieval-dynasty-calculator
+# Medieval Dynasty Calculator
