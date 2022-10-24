@@ -3,8 +3,13 @@ services:
     entrypoint:
     - sleep
     - infinity
+    ports:
+      - "4200:4200"
+    expose:
+      - "4200"
     build:
-      context: backend
+      context: .
+      dockerfile: Dockerfile-dev
       target: development
     volumes:
       - type: bind

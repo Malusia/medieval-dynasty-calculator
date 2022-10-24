@@ -4,4 +4,6 @@ RUN npm install -g @angular/cli
 
 FROM build as development
 
+WORKDIR /medieval-dynasty-calculator
+
 EXPOSE 4200
